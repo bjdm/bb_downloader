@@ -1,0 +1,28 @@
+<?xml version"1.0" encoding="UTF-8"?>
+<config>
+	<unit>
+		<unitname>Cryptography</unitname>
+		<unitcode>CAB340</unitcode>
+		<directory>/run/media/brent/shared/uni/CAB340/Downloads/</directory>
+		<url>https://blackboard.qut.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_121060_1&amp;content_id=_5530769_1&amp;mode=reset</url>
+		<semester>2</semester>
+		<year>2015</year>
+	</unit>
+	<unit>
+		<unitname>Calculus of One and Two Variables</unitname>
+		<unitcode>MXB105</unitcode>
+		<directory>/run/media/brent/shared/uni/MXB105/Downloads/</directory>
+		<url>https://blackboard.qut.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_120043_1&amp;content_id=_5420118_1&amp;mode=reset"</url>
+		<semester>2</semester>
+		<year>2015</year>
+	</unit>
+	<unit>
+		<unitname>Statistical Models for Data: Relationships and Effects</unitname>
+		<unitcode>MXB107</unitcode>
+		<directory>/run/media/brent/shared/uni/MXB107/Downloads/</directory>
+		<url>https://blackboard.qut.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_120045_1&amp;content_id=_5420126_1&amp;mode=reset</url>
+		<semester>2</semester>
+		<year>2015</year>
+	</unit>
+
+</config>
