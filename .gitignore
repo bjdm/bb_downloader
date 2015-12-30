@@ -1,13 +1,21 @@
+# Virtual environment
+env/
+env/*
+
+# Download folders
+CAB340/
+CAB340/*
+MXB105/
+MXB105/*
+MXB106/
+MXB106/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 
 # C extensions
 *.so
-
-# Virtual environment
-env/
-env/*
 
 # Distribution / packaging
 .Python
