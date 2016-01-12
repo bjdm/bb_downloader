@@ -4,6 +4,9 @@ bb_downloader is a small package which is intended to be operated either from th
 It will handle the Shibboleth authentication with SAML with the Blackboard Identity server using the bb_auth package, then
 crawl whichever units have been declared in config.xml.
 
+It will also automatically download lecture recordings from the Echo resource centre using the public RSS feed. More information on how to get this RSS feed will be provided at a later date. Documentation on how to do this is widely 
+available for those who do not wish to wait
+
 ## Usage
 
 The package is still under heavy development and as such does not work in its entirety. Currently, the application does not
