@@ -1,6 +1,9 @@
 # Virtual environment
 env/
 env/*
+test/
+test/*
+run_tests.py
 
 # Download folders
 CAB340/

@@ -3,6 +3,7 @@ import logging
 
 from bb_downloader.bb_auth import authenticate
 from bb_downloader.config import parse_config
+from bb_downloader.Unit import Unit
 
 # For testing purposes/private use, declare username and password here
 # un = 'n#######'
@@ -25,14 +26,18 @@ def main(argv=None):
 
     # Parse config.xml to retrieve user's units
     logging.info('Parsing configuration.')
-    units = parse_config()
+    cfg = parse_config()
 
     logging.info('Authenticating session.')
     s = authenticate(un, pw)
     logging.info('Successfully authenticated')
 
+    units = [Unit(u.name, u.code, u.bb_url, u.echo_url, u.assessment_dir,
+                  u.recordings_dir, u.resources_dir, u.year, u.semester, s)
+             for u in cfg]
+
     for unit in units:
-        unit.authenticated_session(s)
+        unit.refresh_rss()
 
 if __name__ == '__main__':
     sys.exit(main())

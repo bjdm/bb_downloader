@@ -1,28 +1,44 @@
-<?xml version"1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <config>
-	<unit>
-		<unitname>Cryptography</unitname>
-		<unitcode>CAB340</unitcode>
-		<directory>/run/media/brent/shared/uni/CAB340/Downloads/</directory>
-		<url>https://blackboard.qut.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_121060_1&amp;content_id=_5530769_1&amp;mode=reset</url>
-		<semester>2</semester>
-		<year>2015</year>
-	</unit>
-	<unit>
-		<unitname>Calculus of One and Two Variables</unitname>
-		<unitcode>MXB105</unitcode>
-		<directory>/run/media/brent/shared/uni/MXB105/Downloads/</directory>
-		<url>https://blackboard.qut.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_120043_1&amp;content_id=_5420118_1&amp;mode=reset"</url>
-		<semester>2</semester>
-		<year>2015</year>
-	</unit>
-	<unit>
-		<unitname>Statistical Models for Data: Relationships and Effects</unitname>
-		<unitcode>MXB107</unitcode>
-		<directory>/run/media/brent/shared/uni/MXB107/Downloads/</directory>
-		<url>https://blackboard.qut.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_120045_1&amp;content_id=_5420126_1&amp;mode=reset</url>
+	<unit 
+		name="Cryptography" 
+		code="CAB340">
+		<directory 
+			recordings="/run/media/brent/8126b1b1-b27d-4b13-9ca8-c9d1340d2da0/shared/shared/uni/CAB340/LectureRecordings/" 
+			assessment=""
+			learningresources=""/>
+		<url 
+			echo="https://lecturecapture.qut.edu.au/ess/feed?id=44bba90f-f5f4-4313-a93b-aec5249cd27b&amp;type=M4V" 
+			blackboard="https://blackboard.qut.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_121060_1&amp;content_id=_5530769_1&amp;mode=reset"/>
 		<semester>2</semester>
 		<year>2015</year>
 	</unit>
 
+	<unit 
+		name="Calculus of One and Two Variables" 
+		code="MXB105">
+		<directory 
+			recordings="/run/media/brent/8126b1b1-b27d-4b13-9ca8-c9d1340d2da0/shared/shared/uni/MXB105/LectureRecordings/" 
+			assessment=""
+			learningresources=""/>
+		<url 
+			echo="https://lecturecapture.qut.edu.au/ess/feed?id=b215e3ba-e4dc-4e5a-b95b-17cbc69aa049&amp;type=M4V" 
+			blackboard="https://blackboard.qut.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_120043_1&amp;content_id=_5420118_1&amp;mode=reset"/>
+		<semester>2</semester>
+		<year>2015</year>
+	</unit>
+
+	<unit 
+		name="Statistical Models for Data: Relationships and Effects" 
+		code="MXB107">
+		<directory 
+			recordings="/run/media/brent/8126b1b1-b27d-4b13-9ca8-c9d1340d2da0/shared/shared/uni/MXB107/LectureRecordings/" 
+			assessment="" 
+			learningresources=""/>
+		<url 
+			echo="https://lecturecapture.qut.edu.au/ess/feed?id=d04fbbb8-44bb-41f4-9882-6afa4704f2cc&amp;type=M4V" 
+			blackboard="https://blackboard.qut.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_120045_1&amp;content_id=_5420126_1&amp;mode=reset"/>
+		<semester>2</semester>
+		<year>2015</year>
+	</unit>
 </config>
